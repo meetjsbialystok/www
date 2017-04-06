@@ -5,5 +5,9 @@
     "author": "Hubert Zub",
     "link_pres": "https://bugzilla.mozilla.org/show_bug.cgi?id=1023155#c6",
     "link_repo": "https://github.com/"
-  }]
+  }],
+  "nextMeeting": {
+    "date": "13 kwietnia",
+    "link": "https://www.facebook.com/events/302459640172871/"
+  }
 }

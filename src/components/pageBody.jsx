@@ -9,11 +9,12 @@ export default class PageBody extends React.Component {
     this.setState({
       presentations: null,
       isLoading: true,
+      nextMeeting: null,
     });
 
     DataService.getPresentations().then((data) => {
-      console.info("MAMY PREZ W KOMPO", data);
       this.setState({
+        nextMeeting: data.nextMeeting,
         presentations: data.presentations,
         isLoading: false,
       });
@@ -21,6 +22,16 @@ export default class PageBody extends React.Component {
   }
 
   render() {
+    let nextMeetingMarkup = null;
+    if (this.state.nextMeeting) {
+      nextMeetingMarkup = (
+        <div className="c-sidebar--info-meeting">
+          <h3>Termin następnego spotkania:</h3>
+          <a className="c-sidebar--info-meeting-link" href={this.state.nextMeeting.link} target="_blank">{this.state.nextMeeting.date}</a>
+        </div>
+      );
+    }
+
     let presentationsMarkup = null;
     if (Array.isArray(this.state.presentations)) {
       presentationsMarkup = this.state.presentations.map(
@@ -28,11 +39,16 @@ export default class PageBody extends React.Component {
       );
     }
 
-    return <div className="c-wrapper">
+    return (
+      <div className="c-wrapper">
         <aside className="c-sidebar">
           <div className="c-sidebar--logo"></div>
-          <div className="c-sidebar--disclaimer">
-
+          <div className="c-sidebar--info">
+            Niniejsza strona służy jako repozytorium prezentacji, które pokazywane były dotychczas na deskach białostockich spotkań meet.js.
+            <a href="https://www.facebook.com/groups/javascript.bialystok/" target="_blank" className="c-sidebar--info-link">
+              <i className="icon icon-facebook"></i> JavaScript i front-end Białystok
+            </a>
+            {nextMeetingMarkup}
           </div>
         </aside>
         <section className="c-body">
@@ -42,5 +58,6 @@ export default class PageBody extends React.Component {
           </div>
         </section>
       </div>
-    }
+    );
+  }
 };

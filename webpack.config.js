@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const SRC_PATH = path.resolve(__dirname, './src')
 const DIST_PATH = path.resolve(__dirname, './path')
@@ -24,22 +24,49 @@ module.exports = {
   },
   module: {
     rules: [{
-        test: /\.jsx?$/,
-        exclude: [/node_modules/],
-        use: [{
-          loader: 'babel-loader',
-        }],
-      },
-    ],
+      test: /\.jsx?$/,
+      exclude: [/node_modules/],
+      use: [{
+        loader: 'babel-loader',
+      }],
+    }, {
+      test: /\.json?$/,
+      exclude: [/node_modules/],
+      use: [{
+        loader: 'json-loader',
+      }],
+    }, {
+      test: /\.(jpg|jpeg|png)?$/,
+      exclude: [/node_modules/],
+      use: [{
+        loader: 'file-loader?name=[path][name].[hash].[ext]',
+      }],
+    }, {
+      test: /\.scss$/,
+      exclude: [/node_modules/],
+      loader: ExtractTextPlugin.extract({
+        fallback: 'style-loader',
+        use: [
+          'css-loader', {
+            loader: 'postcss-loader',
+            options: {
+              plugins: function() {
+                return [
+                  require('autoprefixer')
+                ];
+              }
+            }
+          },
+          'sass-loader',
+        ]
+      })
+    }],
   },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Custom template using Handlebars',
       template: 'index.ejs'
     }),
-    new CopyWebpackPlugin([{
-      from: './assets',
-      to: './assets/'
-    }])
+    new ExtractTextPlugin("styles.css"),
   ]
 };
