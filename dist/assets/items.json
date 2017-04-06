@@ -1,0 +1,9 @@
+{
+  "presentations": [{
+    "title": "test",
+    "date": "5 czerwca 2016",
+    "author": "Hubert Zub",
+    "link_pres": "https://bugzilla.mozilla.org/show_bug.cgi?id=1023155#c6",
+    "link_repo": "https://github.com/"
+  }]
+}

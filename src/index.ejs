@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin-ext" rel="stylesheet">
+  <title>meet.js Białystok</title>
+  <style>
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body,
+    html {
+      height: 100%;
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .c-master {
+      height: 100%;
+      width: 100%;
+      background-image: url('./assets/bg.jpg');
+      background-size: cover;
+    }
+
+    @media screen and (min-width: 801px) {
+      .c-master {
+        padding-top: 32px;
+      }
+    }
+
+    .c-wrapper {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    @media screen and (min-width: 801px) {
+      .c-wrapper {
+        display: flex;
+      }
+    }
+
+    .c-sidebar {
+      flex: 1;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 32px;
+    }
+
+    .c-sidebar--logo {
+      padding-bottom: 36.5%;
+      background-image: url('./assets/logo.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .c-body {
+      flex: 0 0 600px;
+      background-color: rgba(255, 255, 255, 0.75);
+      padding: 32px;
+    }
+
+    @media screen and (min-width: 1025px) {
+      .c-body {
+        flex: 0 0 800px;
+      }
+    }
+
+    h2 {
+      font-weight: bold;
+      font-size: 2em;
+    }
+
+    .c-presentation {
+      margin-top: 32px;
+    }
+
+    .c-presentation--title {
+      font-size: 1.4em;
+      color: #249fab;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .c-presentation--author {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .c-presentation--link {
+      display: inline-block;
+      font-size: 14px;
+      color: black;
+      text-decoration: none;
+      margin-right: 16px;
+      vertical-align:top;
+    }
+
+    .c-presentation--link:hover {
+      color: #249fab;
+    }
+
+    .icon {
+      display:inline-block;
+      vertical-align:top;
+      background-size: 16px 16px;
+      background-repeat: no-repeat;
+      margin-right: 0px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .icon-dropbox {
+      background-image: url('./assets/icon-dropbox.png');
+    }
+    .icon-github {
+      background-image: url('./assets/icon-github.png');
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root" class ="c-master"></div>
+</body>
+
+</html>
