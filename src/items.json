@@ -1,11 +1,67 @@
 {
-  "presentations": [{
-    "title": "test",
-    "date": "5 czerwca 2016",
-    "author": "Hubert Zub",
-    "link_pres": "https://bugzilla.mozilla.org/show_bug.cgi?id=1023155#c6",
-    "link_repo": "https://github.com/"
-  }],
+  "presentations": [
+    {
+      "title": "Cebuliada - jak zrobiłem aplikację realtime w ReactJS",
+      "date": "9 marca 2017",
+      "author": "Radek Snarski",
+      "link_repo": "https://github.com/2N-IT/programistok2016-cebuliada"
+    },
+    {
+      "title": "Świat zza krat - lightning talk",
+      "date": "9 marca 2017",
+      "author": "Maciek Korsan",
+      "link_pres": "http://slides.com/maciejkorsan/cssgrid#/"
+    },
+    {
+      "title": "Zrób sobie dependency injection bez frameworka w 10 minut",
+      "date": "9 marca 2017",
+      "author": "Hubert Zub",
+      "link_pres": "https://slides.com/hubertzub/zrobmy-sobiedependency-injectionw-10-minut/"
+    },
+    {
+      "title": "VRamugą w łeb",
+      "date": "25 listopada 2016",
+      "author": "Maciek Korsan",
+      "link_pres": "http://slides.com/maciejkorsan/vr#/"
+    },
+    {
+      "title": "SignalR - R is for Realtime",
+      "date": "6 października 2016",
+      "author": "Rafał Hryniewski",
+      "link_pres": "https://docs.google.com/presentation/d/1dCcel77qQlmUWcN_uZ9oelWkVDLH-3FjaFNDb1adk5o/edit#slide=id.p"
+    },
+    {
+      "title": "Jak zostać mobile developerem w jeden dzień",
+      "date": "6 października 2016",
+      "author": "Paweł Kondraciuk",
+      "link_pres": "https://www.slideshare.net/PaweKondraciuk/jak-zosta-mobile-deweloperem-w-1-dzie",
+      "link_repo": "https://github.com/pawelkondraciuk/nativescript-hello-world-demo-1"
+    },
+    {
+      "title": "Angular 2 - wprowadzenie",
+      "date": "30 czerwca 2016",
+      "author": "Chrystian Ruminowitz",
+      "link_repo": "https://github.com/chrum/ng2-basic-intro"
+    },
+    {
+      "title": "Can i use... CSS4?",
+      "date": "30 czerwca 2016",
+      "author": "Maciek Korsan",
+      "link_pres": "http://slides.com/maciejkorsan/can-i-use-css4#/"
+    },
+    {
+      "title": "Uprość swoje życie - webpack!",
+      "date": "24 maja 2016",
+      "author": "Hubert Zub",
+      "link_repo": "https://github.com/hzub/webpack-intro-wyklad"
+    },
+    {
+      "title": "Dlaczego nie potrzebujesz jQuery, jeśli masz AngularJS?",
+      "date": "24 lutego 2015",
+      "author": "Maciek Korsan",
+      "link_pres": "https://www.icloud.com/keynote/000Bw99npsOk-p521-G0IFIRQ#meet"
+    }
+  ],
   "nextMeeting": {
     "date": "13 kwietnia",
     "link": "https://www.facebook.com/events/302459640172871/"
