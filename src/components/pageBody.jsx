@@ -40,23 +40,49 @@ export default class PageBody extends React.Component {
     }
 
     return (
-      <div className="c-wrapper">
-        <aside className="c-sidebar">
-          <div className="c-sidebar--logo"></div>
-          <div className="c-sidebar--info">
-            Niniejsza strona służy jako repozytorium prezentacji, które pokazywane były dotychczas na deskach białostockich spotkań meet.js.
-            <a href="https://www.facebook.com/groups/javascript.bialystok/" target="_blank" className="c-sidebar--info-link">
-              <i className="icon icon-facebook"></i> JavaScript i front-end Białystok
+      <div>
+        <div className="c-wrapper">
+          <aside className="c-sidebar">
+            <div className="c-sidebar--logo"></div>
+            <div className="c-sidebar--info">
+              Niniejsza strona służy jako repozytorium prezentacji, które pokazywane były dotychczas na deskach białostockich spotkań meet.js.
+              <a href="https://www.facebook.com/groups/javascript.bialystok/" target="_blank" className="c-sidebar--info-link">
+                <i className="icon icon-facebook"></i> JavaScript i front-end Białystok
+              </a>
+              {nextMeetingMarkup}
+              <div className="c-sidebar--info-your-pres">
+                <h4>Masz pomysł na prezentację? Napisz:</h4>
+                <a className="c-sidebar--info-email" href="mailto:hubert.zub@gmail.com" target="_blank">hubert.zub@gmail.com</a>
+              </div>
+            </div>
+          </aside>
+          <section className="c-body">
+            <h2>Prezentacje</h2>
+            <div className="c-presentation-list">
+              {presentationsMarkup}
+            </div>
+          </section>
+        </div>
+        <footer className="c-footer">
+          <h3 className="c-footer--header">Partnerzy</h3>
+          <div className="c-footer--logo-row">
+            <a href="https://instapage.com/try?mbsy=gpdnZ&campaignid=10005&mbsy_source=73df36cc-a783-486d-b61e-1cae9e6c577f" target="_blank" className="c-footer--logo is-w logo-1">
+
             </a>
-            {nextMeetingMarkup}
+            <a href="http://www.infinity-group.pl/en" target="_blank" className="c-footer--logo is-w logo-2">
+
+            </a>
+            <a href="http://hacklag.org/" target="_blank" className="c-footer--logo logo-3">
+
+            </a>
+            <a href="https://www.facebook.com/explorerhq/" target="_blank" className="c-footer--logo logo-4">
+
+            </a>
+            <a href="https://www.facebook.com/korsanstudio/" target="_blank" className="c-footer--logo logo-5">
+
+            </a>
           </div>
-        </aside>
-        <section className="c-body">
-          <h2>Prezentacje</h2>
-          <div className="c-presentation-list">
-            {presentationsMarkup}
-          </div>
-        </section>
+        </footer>
       </div>
     );
   }
