@@ -75,7 +75,7 @@ export default class PageBody extends React.Component {
             <a href="http://hacklag.org/" target="_blank" className="c-footer--logo logo-3">
 
             </a>
-            <a href="https://www.facebook.com/explorerhq/" target="_blank" className="c-footer--logo logo-4">
+            <a href="https://www.explorer-hq.com/" target="_blank" className="c-footer--logo logo-4">
 
             </a>
             <a href="https://www.facebook.com/korsanstudio/" target="_blank" className="c-footer--logo logo-5">
