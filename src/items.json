@@ -1,6 +1,19 @@
 {
   "presentations": [
     {
+      "title": "Make your website (a bit) offline",
+      "date": "17 maja 2017",
+      "author": "Paweł Łukaszuk",
+      "link_pres": "http://lukaszuk.pl/talks/meetjs15.pptx",
+      "link_repo": "http://lukaszuk.pl/talks/meetjs15.zip"
+    },
+    {
+      "title": "Trening na redukcję - jak spalić kilobajty",
+      "date": "17 maja 2017",
+      "author": "Paweł Kondraciuk",
+      "link_pres": "https://pawelkondraciuk.github.io/meetjs-optimisation/"
+    },
+    {
       "title": "Cebuliada - jak zrobiłem aplikację realtime w ReactJS",
       "date": "9 marca 2017",
       "author": "Radek Snarski",
@@ -40,7 +53,7 @@
     {
       "title": "Angular 2 - wprowadzenie",
       "date": "30 czerwca 2016",
-      "author": "Chrystian Ruminowitz",
+      "author": "Chrystian Ruminowicz",
       "link_repo": "https://github.com/chrum/ng2-basic-intro"
     },
     {
@@ -62,7 +75,7 @@
       "link_pres": "https://www.icloud.com/keynote/000Bw99npsOk-p521-G0IFIRQ#meet"
     }
   ],
-  "nextMeeting": {
+  "nextMeeting_switched_off": {
     "date": "17 maja",
     "link": "https://www.facebook.com/groups/javascript.bialystok/"
   }

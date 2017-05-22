@@ -53,6 +53,7 @@ export default class PageBody extends React.Component {
               <div className="c-sidebar--info-your-pres">
                 <h4>Masz pomysł na prezentację? Napisz:</h4>
                 <a className="c-sidebar--info-email" href="mailto:hubert.zub@gmail.com" target="_blank">hubert.zub@gmail.com</a>
+                <a className="c-sidebar--info-email" href="karol.rogowski@gmail.com" target="_blank">karol.rogowski@gmail.com</a>
               </div>
             </div>
           </aside>
