@@ -6,15 +6,16 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const SRC_PATH = path.resolve(__dirname, './src')
 const DIST_PATH = path.resolve(__dirname, './path')
 
-module.exports = {
+module.exports = env => ({
   context: path.resolve(__dirname, './src'),
   entry: {
     app: ['./app.js'],
+    conference: ['./conference/conference.js'],
   },
   output: {
     publicPath: '/',
     path: path.resolve(__dirname, './dist'),
-    filename: '[name].[hash].bundle.js',
+    filename: '[name].[hash].js',
   },
   resolve: {
     alias: {
@@ -50,7 +51,7 @@ module.exports = {
           'css-loader', {
             loader: 'postcss-loader',
             options: {
-              plugins: function() {
+              plugins: function () {
                 return [
                   require('autoprefixer')
                 ];
@@ -64,9 +65,22 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Custom template using Handlebars',
-      template: 'index.ejs'
+      template: 'index.ejs',
+      filename: 'index.html',
+      chunks: ['commons', 'app']
     }),
-    new ExtractTextPlugin("styles.css"),
+    new HtmlWebpackPlugin({
+      template: 'conference/index.ejs',
+      filename: 'conference/index.html',
+      chunks: ['commons', 'conference']
+    }),
+    new ExtractTextPlugin({
+      filename: "[name].[hash].css",
+      disable: env === 'dev',
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: "commons",
+    }),
+    new webpack.NamedModulesPlugin(),
   ]
-};
+});
