@@ -1,0 +1,76 @@
+.section {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      font-family: Montserrat;
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .color--white {
+      color: #fff;
+    }
+
+    .bgcolor--white {
+      background-color: #fff;
+    }
+
+    .color--primary {
+      color: #249fab;
+    }
+
+    .bgcolor--primary {
+      background-color: #249fab;
+    }
+
+    .color--secondary {
+      color: #2b1c34;
+    }
+
+    .bgcolor--secondary {
+      background-color: #2b1c34;
+    }
+
+    .margin--bottom {
+      margin-bottom: 40px;
+    }
+
+    .margin--top {
+      margin-top: 40px;
+    }
+
+    .columns {
+      display: flex;
+    }
+
+    .column {
+      flex: 1;
+      margin: 0 20px;
+    }
+
+    .content {
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .content p {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    .padding--top {
+      padding-top: 40px;
+    }
+
+    .padding--bottom {
+      padding-bottom: 40px;
+    }
+
+    .agenda--wrapper {
+      display: flex;
+      flex-flow: row wrap;
+    }
