@@ -1,8 +1,78 @@
-
-    .agenda--box {
-      flex: 1;
-      height: 90px;
-      background-color: tomato;
-      flex-basis: 50%;
-      padding: 20px;
+.agenda {
+    &__container {
+        display: flex;
+        flex-flow: row wrap;
     }
+    &__box-wrapper {
+        flex: 1;
+        flex-basis: 50%;
+        padding-bottom: 30px;
+        @media (max-width: 880px) {
+            flex-basis: 100%;
+        }
+    }
+    &__category-name {
+        margin-left: 20px;
+        font-size: 20px;
+        font-family: Montserrat;
+        font-weight: bold;
+    }
+    &__box {
+        margin: 20px;
+        display: flex;
+        box-shadow: 10px 10px 0 0 #22162a;
+        &__photo {
+            flex: 4;
+            font-size: 0;
+            img {
+                width: 100%;
+            }
+        }
+        &__content {
+            flex: 5;
+            position: relative;
+            padding: 10px;
+        }
+        &__title {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+            font-size: 28px;
+            font-family: Montserrat;
+            line-height: 36px;
+            @media (max-width: 1200px) {
+                font-size: 20px;
+                line-height: 26px;
+            }
+            @media (max-width: 880px) {
+                font-size: calc(0.00075 * 56 * (100vw - 100px));
+                line-height: calc(0.00075 * 70 * (100vw - 100px));
+            }
+        }
+        &__name {
+            font-size: 20px;
+            font-family: Montserrat;
+            font-weight: bold;
+            margin-bottom: 8px;
+            @media (max-width: 1200px) {
+                font-size: 18px;
+            }
+            @media (max-width: 880px) {
+                font-size: calc(0.00075 * 58 * (100vw - 100px));
+            }
+        }
+        &__company {
+            font-size: 12px;
+            font-family: Montserrat;
+            font-weight: bold;
+
+            @media (max-width: 1200px) {
+                font-size: 10px;
+            }
+            @media (max-width: 880px) {
+                font-size: calc(0.00075 * 48 * (100vw - 100px));
+            }
+        }
+    }
+}

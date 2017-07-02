@@ -1,76 +1,101 @@
 .section {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-    .section-header {
-      font-family: Montserrat;
-      font-size: 50px;
-      font-weight: bold;
-      text-align: center;
+.section-header {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    @media (max-width: 600px) {
+        font-size: 24px;
     }
+}
 
-    .color--white {
-      color: #fff;
-    }
+.color--white {
+    color: #fff;
+}
 
-    .bgcolor--white {
-      background-color: #fff;
-    }
+.bgcolor--white {
+    background-color: #fff;
+}
 
-    .color--primary {
-      color: #249fab;
-    }
+.color--primary {
+    color: #249fab;
+}
 
-    .bgcolor--primary {
-      background-color: #249fab;
-    }
+.bgcolor--primary {
+    background-color: #249fab;
+}
 
-    .color--secondary {
-      color: #2b1c34;
-    }
+.color--secondary {
+    color: #2b1c34;
+}
 
-    .bgcolor--secondary {
-      background-color: #2b1c34;
-    }
+.bgcolor--secondary {
+    background-color: #2b1c34;
+}
 
-    .margin--bottom {
-      margin-bottom: 40px;
-    }
+.color--tertiary {
+    color: #3c2e44;
+}
 
-    .margin--top {
-      margin-top: 40px;
-    }
+.bgcolor--tertiary {
+    background-color: #3c2e44;
+}
 
-    .columns {
-      display: flex;
+.margin--bottom {
+    margin-bottom: 40px;
+    @media (max-width: 600px) {
+        margin-bottom: 20px;
     }
+}
 
-    .column {
-      flex: 1;
-      margin: 0 20px;
+.margin--top {
+    margin-top: 40px;
+    @media (max-width: 600px) {
+        margin-top: 20px;
     }
+}
 
-    .content {
-      font-family: Montserrat;
-      font-size: 14px;
-      line-height: 24px;
+.columns {
+    display: flex;
+    @media (max-width: 600px) {
+        display: block;
     }
+}
 
-    .content p {
-      margin-bottom: 20px;
-      text-align: justify;
-    }
+.column {
+    flex: 1;
+    margin: 0 20px;
+}
 
-    .padding--top {
-      padding-top: 40px;
-    }
+.content {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+}
 
-    .padding--bottom {
-      padding-bottom: 40px;
+.content p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 14px;
+    @media (max-width: 600px) {
+        font-size: 12px;
     }
+}
 
-    .agenda--wrapper {
-      display: flex;
-      flex-flow: row wrap;
+.padding--top {
+    padding-top: 40px;
+    @media (max-width: 600px) {
+        padding-top: 20px;
     }
+}
+
+.padding--bottom {
+    padding-bottom: 40px;
+    @media (max-width: 600px) {
+        padding-bottom: 20px;
+    }
+}

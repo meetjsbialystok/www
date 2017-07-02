@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./pageRegister.scss"; 
 
-export default class PageHeader extends React.Component {
+export default class PageRegister extends React.Component {
     render() {
         return (
             <div>

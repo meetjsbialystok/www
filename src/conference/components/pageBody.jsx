@@ -4,6 +4,7 @@ import PageHeader from './header/pageHeader.jsx';
 import PageIdea from './idea/pageIdea.jsx';
 import PageRegister from './register/pageRegister.jsx';
 import PageAgenda from './agenda/pageAgenda.jsx';
+import PageCfp from './cfp/pageCfp.jsx';
 
 export default class PageBody extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export default class PageBody extends React.Component {
         <PageIdea/>
         <PageRegister/>
         <PageAgenda/>
+        <PageCfp/>
       </div>
     );
   }

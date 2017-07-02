@@ -1,31 +1,41 @@
-    .register {
-      padding: 40px 0;
-    }
+.register {
+    padding: 40px 0;
 
-    .register--button {
-      display: block;
-      background-color: #bddb59;
-      width: 700px;
-      height: 90px;
-      text-align: center;
-      line-height: 90px;
-      color: white;
-      margin: 0 auto;
-      font-size: 46px;
-      font-family: Montserrat;
-      font-weight: bold;
-      text-transform: uppercase;
-      box-shadow: 10px 10px 0 0 #1c7d87;
-      text-shadow: 3px 3px 0 #95ad46;
-      cursor: pointer;
+    @media (max-width: 880px) {
+      padding: 20px 0;
     }
+}
 
-    .register--button:hover {
-      background-color: #cce577;
-    }
+.register--button {
+    display: block;
+    background-color: #bddb59;
+    width: 700px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    margin: 0 auto;
+    font-size: 46px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 0 0 #1c7d87;
+    text-shadow: 3px 3px 0 #95ad46;
+    cursor: pointer;
 
-    .register--button:active {
-      background-color: #aecc49;
-      transform: translate(3px, 3px);
-      box-shadow: 7px 7px 0 0 #1c7d87;
+    @media (max-width: 880px) {
+      width: 100%;
+      font-size: 26px;
     }
+    
+}
+
+.register--button:hover {
+    background-color: #cce577;
+}
+
+.register--button:active {
+    background-color: #aecc49;
+    transform: translate(3px, 3px);
+    box-shadow: 7px 7px 0 0 #1c7d87;
+}

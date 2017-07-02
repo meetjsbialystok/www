@@ -13,7 +13,7 @@ export default class PageHeader extends React.Component {
             <div className="header--map">
               <div className="header--body">
                 <div className="header--logo">
-                  <img src="../../assets/logo.png" />
+                  <img src={require('../../assets/logo.png')} />
                 </div>
                 <div className="header--text-container">
                   <div className="header--edition">special summer edition</div>

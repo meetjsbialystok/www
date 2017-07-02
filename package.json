@@ -16,9 +16,12 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.0",
+    "lodash.throttle": "^4.1.1",
+    "process-nextick-args": "^1.0.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-lite": "^0.15.33"
+    "react-lite": "^0.15.33",
+    "util-deprecate": "^1.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
