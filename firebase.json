@@ -4,11 +4,10 @@
   },
   "hosting": {
     "public": "dist",
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "redirects": [ {
+      "source" : "/",
+      "destination" : "/summer-edition/",
+      "type" : 301
+    }]
   }
 }

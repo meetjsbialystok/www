@@ -1,8 +1,7 @@
 .register {
-    padding: 40px 0;
-
+    padding: 40px 0 50px 0;
     @media (max-width: 880px) {
-      padding: 20px 0;
+        padding: 20px 0 30px 0;
     }
 }
 
@@ -19,15 +18,16 @@
     font-family: Montserrat;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
     box-shadow: 10px 10px 0 0 #1c7d87;
     text-shadow: 3px 3px 0 #95ad46;
     cursor: pointer;
-
     @media (max-width: 880px) {
-      width: 100%;
-      font-size: 26px;
+        height: 60px;
+        line-height: 60px;
+        width: 100%;
+        font-size: 26px;
     }
-    
 }
 
 .register--button:hover {

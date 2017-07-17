@@ -10,7 +10,7 @@ module.exports = env => ({
   context: path.resolve(__dirname, './src'),
   entry: {
     app: ['./app.js'],
-    conference: ['./conference/conference.js'],
+    'summer-edition': ['./summer-edition/summer-edition.js'],
   },
   output: {
     publicPath: '/',
@@ -70,9 +70,9 @@ module.exports = env => ({
       chunks: ['commons', 'app']
     }),
     new HtmlWebpackPlugin({
-      template: 'conference/index.ejs',
-      filename: 'conference/index.html',
-      chunks: ['commons', 'conference']
+      template: 'summer-edition/index.ejs',
+      filename: 'summer-edition/index.html',
+      chunks: ['commons', 'summer-edition']
     }),
     new ExtractTextPlugin({
       filename: "[name].[hash].css",

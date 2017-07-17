@@ -1,0 +1,38 @@
+.partners {
+  max-width: 800px;
+  margin:0 auto;
+  &__header {
+    font-size: 24px;
+    font-family: Montserrat;
+  }
+  &__logo-list {
+    display: flex;
+    height: 200px;
+    @media (max-width: 600px) {
+      display: block;
+      height: auto;
+    }
+  }
+  &__logo {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+
+    @media (max-width: 600px) {
+      display: block;
+    }
+
+    &--sm {
+      flex: 1;
+    }
+
+    img {
+      margin: auto;
+      width: 100%;
+      max-width: 400px;
+      @media (max-width: 600px) {
+        max-width: 200px;
+      }
+    }
+  }
+}
