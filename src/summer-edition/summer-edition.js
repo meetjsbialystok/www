@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './summer-edition.scss';
+import '!!file-loader?name=[path][name].[ext]!./assets/logo_conf.png';
 
 import throttle from 'lodash.throttle';
 

@@ -22,7 +22,7 @@ export default class PageCfp extends React.Component {
                         <div className="column">
                             <p className="cfp__p">Chciabyś wystąpić na większej scenie w towarzystwie Marcina, Kuby i nie tylko? Masz pomysł na prezentację? Nie zwlekaj - wrzucaj zgłoszenie już teraz na: </p>
                             <div className="cfp__email">meetjsbialystok@gmail.com</div>
-                            <p className="cfp__p">Do dnia 13 sierpnia postaramy się dokonać przeglądu zgłoszeń i poinformować o dalszych planach.  </p>
+                            <p className="cfp__p">Z przyjemnością przyjmiemy zarówno tematy miękkie, jak i bardziej techniczne. Czas trwania prezentacji: 30-60 minut. Do dnia 13 sierpnia postaramy się dokonać przeglądu zgłoszeń i poinformować o dalszych planach. </p>
                         </div>
 
                     </div>
