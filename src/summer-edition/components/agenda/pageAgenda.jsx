@@ -32,7 +32,7 @@ export default class PageAgenda extends React.Component {
                                 <div className="agenda__box__content bgcolor--tertiary">
                                     <div className="agenda__box__name color--primary">Marcin Grzywaczewski</div>
                                     <div className="agenda__box__company color--white">Wrocław</div>
-                                    <div className="agenda__box__title color--white">Co React.js może nauczyć backendowca?</div>
+                                    <div className="agenda__box__title color--white">Czego React.js może nauczyć backendowca?</div>
                                 </div>
                             </div>
                         </div>
