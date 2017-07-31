@@ -17,7 +17,6 @@ export default class PageBody extends React.Component {
         <PageIdea/>
         <PageRegister/>
         <PageAgenda/>
-        <PageCfp/>
         <PagePartners/>
         <PagePlace/>
         <PageContact/>
