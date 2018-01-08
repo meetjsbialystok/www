@@ -67,21 +67,22 @@ export default class PageBody extends React.Component {
         <footer className="c-footer">
           <h3 className="c-footer--header">Partnerzy</h3>
           <div className="c-footer--logo-row">
-            <a href="https://instapage.com/try?mbsy=gpdnZ&campaignid=10005&mbsy_source=73df36cc-a783-486d-b61e-1cae9e6c577f" target="_blank" className="c-footer--logo is-w logo-1">
 
+            <a href="https://instapage.com/try?mbsy=gpdnZ&campaignid=10005&mbsy_source=73df36cc-a783-486d-b61e-1cae9e6c577f" target="_blank" className="c-footer--logo is-w logo-ip">
             </a>
-            <a href="http://www.infinity-group.pl/en" target="_blank" className="c-footer--logo is-w logo-2">
 
+            <a href="http://www.infinity-group.pl/en" target="_blank" className="c-footer--logo is-w logo-ig">
             </a>
-            <a href="http://hacklag.org/" target="_blank" className="c-footer--logo logo-3">
 
+            <a href="http://www.operationalrisksolutions.com/en/" target="_blank" className="c-footer--logo is-w logo-op">
             </a>
-            <a href="https://www.explorer-hq.com/" target="_blank" className="c-footer--logo logo-4">
 
+            <a href="https://www.explorer-hq.com/" target="_blank" className="c-footer--logo logo-ehq">
             </a>
-            <a href="https://www.facebook.com/korsanstudio/" target="_blank" className="c-footer--logo logo-5">
 
+            <a href="https://www.facebook.com/korsanstudio/" target="_blank" className="c-footer--logo logo-ks">
             </a>
+
           </div>
         </footer>
       </div>

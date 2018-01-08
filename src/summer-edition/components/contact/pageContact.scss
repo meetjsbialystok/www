@@ -1,19 +1,22 @@
 .contact {
     &__name {
         line-height: 40px;
-        font-size: 36px;
+        font-size: 28px;
         @media (max-width: 1200px) {
             font-size: 20px;
             line-height: 20px;
         }
     }
     &__data {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 36px;
         color: #bddb59;
         @media (max-width: 1200px) {
             font-size: 14px;
             line-height: 18px;
+        }
+        &--highlight {
+            color: #249fab;
         }
     }
     &__person {

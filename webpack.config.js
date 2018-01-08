@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const SRC_PATH = path.resolve(__dirname, './src')
 const DIST_PATH = path.resolve(__dirname, './path')
@@ -82,5 +83,12 @@ module.exports = env => ({
       name: "commons",
     }),
     new webpack.NamedModulesPlugin(),
+    new CopyWebpackPlugin([
+      {
+        context: './static',
+        from: '**/*',
+        to: 'static'
+      },
+    ]),
   ]
 });

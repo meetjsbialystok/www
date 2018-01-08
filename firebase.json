@@ -3,11 +3,6 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "dist",
-    "redirects": [ {
-      "source" : "/",
-      "destination" : "/summer-edition/",
-      "type" : 301
-    }]
+    "public": "dist"
   }
 }

@@ -11,7 +11,7 @@ export default class PageAgenda extends React.Component {
 
                     <div className="agenda__container">
                         <div className="agenda__box-wrapper">
-                            <div className="agenda__category-name color--primary">Strefa techniki</div>
+                            <div className="agenda__category-name color--primary"></div>
                             <div className="agenda__box">
                                 <div className="agenda__box__photo">
                                     <img src={require('../../assets/p_lukasz.png')} />
@@ -24,7 +24,7 @@ export default class PageAgenda extends React.Component {
                             </div>
                         </div>
                         <div className="agenda__box-wrapper">
-                            <div className="agenda__category-name color--primary">Strefa techniki</div>
+                            <div className="agenda__category-name color--primary"></div>
                             <div className="agenda__box">
                                 <div className="agenda__box__photo">
                                     <img src={require('../../assets/p_marcin.png')} />
@@ -37,7 +37,7 @@ export default class PageAgenda extends React.Component {
                             </div>
                         </div>
                         <div className="agenda__box-wrapper">
-                            <div className="agenda__category-name color--primary">Strefa egzotyki</div>
+                            <div className="agenda__category-name color--primary"></div>
                             <div className="agenda__box">
                                 <div className="agenda__box__photo">
                                     <img src={require('../../assets/p_kuba.png')} />
@@ -45,24 +45,42 @@ export default class PageAgenda extends React.Component {
                                 <div className="agenda__box__content bgcolor--tertiary">
                                     <div className="agenda__box__name color--primary">Jakub Gutkowski</div>
                                     <div className="agenda__box__company color--white">Warszawa // blog.gutek.pl</div>
-                                    <div className="agenda__box__title color--primary">TBA</div>
+                                    <div className="agenda__box__title color--white">Elixir miłości</div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="agenda__box-wrapper">
-                            <div className="agenda__category-name color--primary">Strefa lokalna</div>
+                            <div className="agenda__category-name color--primary"></div>
                             <div className="agenda__box">
                                 <div className="agenda__box__photo">
-                                    <img src={require('../../assets/p_sam.png')} />
+                                    <img src={require('../../assets/p_maciek.png')} />
                                 </div>
-                                <div className="agenda__box__content bgcolor--primary">
-                                    <div className="agenda__box__name color--secondary">Twoje nazwisko!</div>
-                                    <div className="agenda__box__company color--white">Białystok!</div>
-                                    <div className="agenda__box__title color--white">Nazwa Twojej prezentacji</div>
+                                <div className="agenda__box__content bgcolor--tertiary">
+                                    <div className="agenda__box__name color--primary">Maciek Korsan</div>
+                                    <div className="agenda__box__company color--white">Białystok // PolarBits</div>
+                                    <div className="agenda__box__title color--white">Disco JavaScript</div>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="agenda__box-wrapper">
+                            <div className="agenda__category-name color--primary"></div>
+                            <div className="agenda__box">
+                                <div className="agenda__box__photo">
+                                    <img src={require('../../assets/p_andrzej.png')} />
+                                </div>
+                                <div className="agenda__box__content bgcolor--tertiary">
+                                    <div className="agenda__box__name color--primary">Andrzej Fricze</div>
+                                    <div className="agenda__box__company color--white">Kraków // meet.js</div>
+                                    <div className="agenda__box__title color--white">Programming is overrated</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="agenda__box-wrapper">
+                        </div>
+
                     </div>
                 </div>
             </section>
