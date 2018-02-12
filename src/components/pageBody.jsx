@@ -52,8 +52,8 @@ export default class PageBody extends React.Component {
               {nextMeetingMarkup}
               <div className="c-sidebar--info-your-pres">
                 <h4>Masz pomysł na prezentację? Napisz:</h4>
-                <a className="c-sidebar--info-email" href="mailto:hubert.zub@gmail.com" target="_blank">hubert.zub@gmail.com</a>
-                <a className="c-sidebar--info-email" href="karol.rogowski@gmail.com" target="_blank">karol.rogowski@gmail.com</a>
+                <a className="c-sidebar--info-email" href="mailto:karol.rogowski@gmail.com" target="_blank">karol.rogowski@gmail.com</a>
+                <a className="c-sidebar--info-email" href="mailto:p@wiszowaty.ovh" target="_blank">p@wiszowaty.ovh</a>
               </div>
             </div>
           </aside>
@@ -77,7 +77,7 @@ export default class PageBody extends React.Component {
             <a href="http://www.operationalrisksolutions.com/en/" target="_blank" className="c-footer--logo is-w logo-op">
             </a>
 
-            <a href="https://www.explorer-hq.com/" target="_blank" className="c-footer--logo logo-ehq">
+            <a href="https://pagepro.co/" target="_blank" className="c-footer--logo is-w logo-pp">
             </a>
 
             <a href="https://www.facebook.com/korsanstudio/" target="_blank" className="c-footer--logo logo-ks">
