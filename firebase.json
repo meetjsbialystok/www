@@ -3,6 +3,18 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "dist"
+    "public": "dist",
+    "redirects": [
+      {
+        "source": "/ankieta/18",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdGSGEgBCu_fN3IERhKe4HuI29ebjJHuBKkswVx8kYKhlPqDw/viewform",
+        "type": 302
+      },
+      {
+        "source": "/ankieta/19",
+        "destination": "https://goo.gl/forms/XHm2JPoZC3D5kp4D3",
+        "type": 302
+      }
+    ]
   }
 }
