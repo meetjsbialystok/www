@@ -1,6 +1,18 @@
 {
   "presentations": [
     {
+      "title": "AMP framework - czyli jak przyśpieszyć stronę mobilną",
+      "date": "25 kwietnia 2018",
+      "author": "Krystian Tokarski",
+      "link_pres": "https://www.icloud.com/iclouddrive/0eqmIo_5sWRWvPJ0z4vZ6thVg#21_k"
+    },
+    {
+      "title": "Framework-less frontend development",
+      "date": "27 marca 2018",
+      "author": "Maciej Hryniszak",
+      "link_pres": "https://www.icloud.com/iclouddrive/00VMoN1_3wgDc_aHad11vXE_Q#20_m"
+    },
+    {
       "title": "Make your website (a bit) offline",
       "date": "17 maja 2017",
       "author": "Paweł Łukaszuk",
@@ -76,7 +88,7 @@
     }
   ],
   "nextMeeting": {
-    "date": "27 marca",
-    "link": "https://www.facebook.com/events/573349249684887/"
+    "date": "30 maja",
+    "link": "https://www.facebook.com/events/179932049385264/"
   }
 }

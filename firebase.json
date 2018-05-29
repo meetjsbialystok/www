@@ -24,6 +24,11 @@
         "source": "/ankieta/21",
         "destination": "https://goo.gl/forms/tlrE8PwW7byxeGSk2",
         "type": 302
+      },
+      {
+        "source": "/ankieta/22",
+        "destination": "https://goo.gl/forms/y0SYBCb0qLj0qrrW2",
+        "type": 302
       }
     ]
   }
