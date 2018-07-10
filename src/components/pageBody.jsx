@@ -74,9 +74,6 @@ export default class PageBody extends React.Component {
             <a href="http://www.infinity-group.pl/en" target="_blank" className="c-footer--logo is-w logo-ig">
             </a>
 
-            <a href="http://www.operationalrisksolutions.com/en/" target="_blank" className="c-footer--logo is-w logo-op">
-            </a>
-
             <a href="https://pagepro.co/" target="_blank" className="c-footer--logo is-w logo-pp">
             </a>
 
