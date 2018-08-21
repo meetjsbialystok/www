@@ -9,9 +9,9 @@ export default class PageRegister extends React.Component {
                 <div className="section">
                     <div className="columns">
                         <div className="column">
-                            <div className="register__date color--white">26 sierpnia 2017, 12:00</div>
-                            <div className="register__place color--white">Aula Duża Wyższej Szkoły Finansów i Zarządzania</div>
-                            <a className="register__button" href="https://meetjsbialystok.evenea.pl/" target="_blank">Zarejestruj się</a>
+                            <div className="register__date color--white">25 sierpnia 2018, 9:00</div>
+                            <div className="register__place color--white">Aula Wydziału Matematyki i Informatyki Uniwersytetu w Białymstoku</div>
+                            <a className="register__button" href="https://meetjsbialystok2018.evenea.pl/" target="_blank">Zarejestruj się</a>
                         </div>
                     </div>
                 </div>

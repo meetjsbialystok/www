@@ -11,69 +11,67 @@ export default class PageAgenda extends React.Component {
 
                     <div className="agenda__container">
                         <div className="agenda__box-wrapper">
-                            <div className="agenda__category-name color--primary"></div>
                             <div className="agenda__box">
                                 <div className="agenda__box__photo">
-                                    <img src={require('../../assets/p_lukasz.png')} />
+                                    <img src={require('../../assets/p_norbi_tomek.png')} />
                                 </div>
                                 <div className="agenda__box__content bgcolor--tertiary">
-                                    <div className="agenda__box__name color--primary">Łukasz Piotr Łuczak</div>
-                                    <div className="agenda__box__company color--white">Łódź</div>
-                                    <div className="agenda__box__title color--white">Zdradliwy JavaScript - rzecz o nieoczywistościach</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="agenda__box-wrapper">
-                            <div className="agenda__category-name color--primary"></div>
-                            <div className="agenda__box">
-                                <div className="agenda__box__photo">
-                                    <img src={require('../../assets/p_marcin.png')} />
-                                </div>
-                                <div className="agenda__box__content bgcolor--tertiary">
-                                    <div className="agenda__box__name color--primary">Marcin Grzywaczewski</div>
-                                    <div className="agenda__box__company color--white">Wrocław</div>
-                                    <div className="agenda__box__title color--white">Czego React.js może nauczyć backendowca?</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="agenda__box-wrapper">
-                            <div className="agenda__category-name color--primary"></div>
-                            <div className="agenda__box">
-                                <div className="agenda__box__photo">
-                                    <img src={require('../../assets/p_kuba.png')} />
-                                </div>
-                                <div className="agenda__box__content bgcolor--tertiary">
-                                    <div className="agenda__box__name color--primary">Jakub Gutkowski</div>
-                                    <div className="agenda__box__company color--white">Warszawa // blog.gutek.pl</div>
-                                    <div className="agenda__box__title color--white">Elixir miłości</div>
+                                    <div className="agenda__box__name color--green">Norbert Kamieński</div>
+                                    <div className="agenda__box__name color--green">Tomasz Chmiel</div>
+                                    <div className="agenda__box__company color--white"></div>
+                                    <div className="agenda__box__title color--white">Zaawansowany React & Redux</div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="agenda__box-wrapper">
-                            <div className="agenda__category-name color--primary"></div>
                             <div className="agenda__box">
                                 <div className="agenda__box__photo">
                                     <img src={require('../../assets/p_maciek.png')} />
                                 </div>
                                 <div className="agenda__box__content bgcolor--tertiary">
-                                    <div className="agenda__box__name color--primary">Maciek Korsan</div>
-                                    <div className="agenda__box__company color--white">Białystok // PolarBits</div>
-                                    <div className="agenda__box__title color--white">Disco JavaScript</div>
+                                    <div className="agenda__box__name color--green">Maciek Korsan</div>
+                                    <div className="agenda__box__company color--white"></div>
+                                    <div className="agenda__box__title color--white">Front-End is an Art</div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="agenda__box-wrapper">
-                            <div className="agenda__category-name color--primary"></div>
                             <div className="agenda__box">
                                 <div className="agenda__box__photo">
-                                    <img src={require('../../assets/p_andrzej.png')} />
+                                    <img src={require('../../assets/p_lukasz.png')} />
                                 </div>
                                 <div className="agenda__box__content bgcolor--tertiary">
-                                    <div className="agenda__box__name color--primary">Andrzej Fricze</div>
-                                    <div className="agenda__box__company color--white">Kraków // meet.js</div>
-                                    <div className="agenda__box__title color--white">Programming is overrated</div>
+                                    <div className="agenda__box__name color--green">Łukasz Piotr Łuczak</div>
+                                    <div className="agenda__box__company color--white"></div>
+                                    <div className="agenda__box__title color--white">Wzorcowe architektoniczne puzzle</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="agenda__box-wrapper">
+                            <div className="agenda__box">
+                                <div className="agenda__box__photo">
+                                    <img src={require('../../assets/p_lukaszs.png')} />
+                                </div>
+                                <div className="agenda__box__content bgcolor--tertiary">
+                                    <div className="agenda__box__name color--green">Łukasz Stankiewicz</div>
+                                    <div className="agenda__box__company color--white"></div>
+                                    <div className="agenda__box__title color--white">RxJS: Tailor-made, or is it?</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="agenda__box-wrapper">
+                            <div className="agenda__box">
+                                <div className="agenda__box__photo">
+                                    <img src={require('../../assets/p_marta.png')} />
+                                </div>
+                                <div className="agenda__box__content bgcolor--tertiary">
+                                    <div className="agenda__box__name color--green">Marta Wiśniewska</div>
+                                    <div className="agenda__box__company color--white"></div>
+                                    <div className="agenda__box__title color--white">Progressive Web Apps with Ionic - build amazing cross-platform apps, with the web.</div>
                                 </div>
                             </div>
                         </div>

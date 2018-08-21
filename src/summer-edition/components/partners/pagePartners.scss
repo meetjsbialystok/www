@@ -1,5 +1,5 @@
 .partners {
-  max-width: 800px;
+  max-width: 900px;
   margin:0 auto;
   &__header {
     font-size: 24px;
@@ -7,31 +7,33 @@
   }
   &__logo-list {
     display: flex;
-    height: 200px;
+    flex-wrap: wrap;
     @media (max-width: 600px) {
       display: block;
       height: auto;
     }
   }
   &__logo {
-    flex: 2;
     padding: 20px;
     display: flex;
-
+    width: 50%;
     @media (max-width: 600px) {
       display: block;
-    }
-
-    &--sm {
-      flex: 1;
+      width: auto;
     }
 
     img {
       margin: auto;
-      width: 100%;
-      max-width: 400px;
+      max-width: 280px;
+      max-height: 100px;
       @media (max-width: 600px) {
         max-width: 200px;
+      }
+    }
+
+    &--sm {
+      img {
+        max-height: 80px;
       }
     }
   }

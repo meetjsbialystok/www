@@ -16,7 +16,7 @@ export default class PageHeader extends React.Component {
               </div>
               <div className="header--text-container">
                 <div className="header--edition">special summer edition</div>
-                <div className="header--date">26 sierpnia 2017, Białystok</div>
+                <div className="header--date">25 sierpnia 2018, Białystok</div>
               </div>
               <div className="header--dot js-clicker">
                 <div className="header--dot-triangle top"></div>
