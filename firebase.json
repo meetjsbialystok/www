@@ -34,6 +34,21 @@
         "source": "/ankieta/23",
         "destination": "https://goo.gl/forms/lERP22Oq14liCZUP2",
         "type": 302
+      },
+      {
+        "source": "/ankieta/summer",
+        "destination": "https://goo.gl/forms/OveQiT63EL42uQ383",
+        "type": 302
+      },
+      {
+        "source": "/ankieta/24",
+        "destination": "https://goo.gl/forms/z2urPc1G6QV9BrKE2",
+        "type": 302
+      },
+      {
+        "source": "/ankieta/25",
+        "destination": "https://goo.gl/forms/0IXNggN23HcESLen2",
+        "type": 302
       }
     ]
   }
