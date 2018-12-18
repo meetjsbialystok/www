@@ -148,7 +148,7 @@ h4 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    min-height: 80px;
+    height: 70px;
     &.is-w {
       flex: 2;
     }
@@ -161,8 +161,8 @@ h4 {
     &.logo-pp {
       background-image: url('./assets/logo-pp.jpg');
     }
-    &.logo-ks {
-      background-image: url('./assets/logo-korsan.png');
+    &.logo-ss {
+      background-image: url('./assets/logo-softserve.png?2');
     }
   }
   img {
