@@ -49,6 +49,11 @@
         "source": "/ankieta/25",
         "destination": "https://goo.gl/forms/0IXNggN23HcESLen2",
         "type": 302
+      },
+      {
+        "source": "/ankieta/26",
+        "destination": "https://goo.gl/forms/QnOYHKDarbUvD5QV2",
+        "type": 302
       }
     ]
   }

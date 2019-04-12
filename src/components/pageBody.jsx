@@ -52,8 +52,7 @@ export default class PageBody extends React.Component {
               {nextMeetingMarkup}
               <div className="c-sidebar--info-your-pres">
                 <h4>Masz pomysł na prezentację? Napisz:</h4>
-                <a className="c-sidebar--info-email" href="mailto:karol.rogowski@gmail.com" target="_blank">karol.rogowski@gmail.com</a>
-                <a className="c-sidebar--info-email" href="mailto:p@wiszowaty.ovh" target="_blank">p@wiszowaty.ovh</a>
+                <a className="c-sidebar--info-email" href="mailto:hello@meetjs.bialystok.pl" target="_blank">hello@meetjs.bialystok.pl</a>
               </div>
             </div>
           </aside>
