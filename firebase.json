@@ -54,6 +54,21 @@
         "source": "/ankieta/26",
         "destination": "https://goo.gl/forms/QnOYHKDarbUvD5QV2",
         "type": 302
+      },
+      {
+        "source": "/ankieta/27",
+        "destination": "https://docs.google.com/forms/d/1DiUc3eAVJtQ9tnadj_jicyCZoG5Dc_sUMzzPFVf-qnQ/viewform",
+        "type": 302
+      },
+      {
+        "source": "/ankieta/28",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSfDZ4s2FHPgm4QRDLTpByx4EHw64kdTgTED65Nd2io38VdwkA/viewform",
+        "type": 302
+      },
+      {
+        "source": "/ankieta/redux",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSfUyADKjokOjaRbErTPgUQaTTIeZrW5F7l0FI70FRL45dFr5w/viewform",
+        "type": 302
       }
     ]
   }
