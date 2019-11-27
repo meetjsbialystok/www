@@ -69,6 +69,21 @@
         "source": "/ankieta/redux",
         "destination": "https://docs.google.com/forms/d/e/1FAIpQLSfUyADKjokOjaRbErTPgUQaTTIeZrW5F7l0FI70FRL45dFr5w/viewform",
         "type": 302
+      },
+      {
+        "source": "/ankieta/summer19",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSc1e9Enb7kHwrFqKGUrg0AtLngAWs8JBYJIRfBMfUVqiP7RNw/viewform",
+        "type": 302
+      },
+      {
+        "source": "/ankieta/29",
+        "destination": "https://forms.gle/3uvkqYe8xwVoA65b8",
+        "type": 302
+      },
+      {
+        "source": "/ankieta/30",
+        "destination": "https://docs.google.com/forms/d/1hSH-Wo_ZQuv93ixNye9WwevfZp8d-34OspZicWyqxBw/viewform",
+        "type": 302
       }
     ]
   }
